@@ -212,6 +212,47 @@ export const SwapFeeBps = {
 };
 export const EmbedChainInfos: ChainInfo[] = [
   {
+    rpc: "https://evm.ynxweb4.com",
+    rest: "https://evm.ynxweb4.com",
+    evm: {
+      chainId: 6423,
+      rpc: "https://evm.ynxweb4.com",
+    },
+    chainId: "eip155:6423",
+    chainName: "YNX Testnet",
+    networkType: "evm",
+    beta: true,
+    chainSymbolImageUrl:
+      "https://ipfs.io/ipfs/bafkreibydfqibqwvm5dpwnyjjk7gruoyt2v5rivstk2pc65ojcwh4px73y",
+    bip44: {
+      coinType: 60,
+    },
+    currencies: [
+      {
+        coinDenom: "YNXT",
+        coinMinimalDenom: "ynxt-native",
+        coinDecimals: 18,
+        coinImageUrl:
+          "https://ipfs.io/ipfs/bafkreibydfqibqwvm5dpwnyjjk7gruoyt2v5rivstk2pc65ojcwh4px73y",
+      },
+    ],
+    feeCurrencies: [
+      {
+        coinDenom: "YNXT",
+        coinMinimalDenom: "ynxt-native",
+        coinDecimals: 18,
+        coinImageUrl:
+          "https://ipfs.io/ipfs/bafkreibydfqibqwvm5dpwnyjjk7gruoyt2v5rivstk2pc65ojcwh4px73y",
+      },
+    ],
+    features: ["not-support-staking"],
+    txExplorer: {
+      name: "YNX Explorer",
+      txUrl: "https://explorer.ynxweb4.com/tx/{txHash}",
+      accountUrl: "https://explorer.ynxweb4.com/address/{address}",
+    },
+  },
+  {
     rpc: "https://orai-rpc.owallet.io",
     rest: "https://orai-rest.owallet.io",
     chainId: "Oraichain",
